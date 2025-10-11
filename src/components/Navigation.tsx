@@ -28,9 +28,7 @@ const Navigation = () => {
 
   return (
     <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-elegant" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white shadow-elegant`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
@@ -66,7 +64,7 @@ const Navigation = () => {
             >
               Contato
             </button>
-            <Button variant="premium" onClick={handleWhatsApp}>
+            <Button variant="whatsapp" onClick={handleWhatsApp}>
               <MessageCircle className="mr-2 w-4 h-4" />
               WhatsApp
             </Button>
@@ -81,7 +79,7 @@ const Navigation = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden py-4 space-y-4 bg-background/95 backdrop-blur-md">
+          <div className="md:hidden py-4 space-y-4 bg-white">
             <button 
               onClick={() => scrollToSection("sobre")}
               className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2"
@@ -106,7 +104,7 @@ const Navigation = () => {
             >
               Contato
             </button>
-            <Button variant="premium" onClick={handleWhatsApp} className="w-full">
+            <Button variant="whatsapp" onClick={handleWhatsApp} className="w-full">
               <MessageCircle className="mr-2 w-4 h-4" />
               WhatsApp
             </Button>
