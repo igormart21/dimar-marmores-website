@@ -1,5 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import mariaPhoto from "@/assets/testimonial-maria.jpg";
+import carlosPhoto from "@/assets/testimonial-carlos.jpg";
+import anaPhoto from "@/assets/testimonial-ana.jpg";
 
 const testimonials = [
   {
@@ -7,18 +10,21 @@ const testimonials = [
     role: "Proprietária Residencial",
     text: "Trabalho impecável! A bancada da minha cozinha ficou sensacional. Equipe profissional e pontual.",
     rating: 5,
+    photo: mariaPhoto,
   },
   {
     name: "Carlos Mendes",
     role: "Arquiteto",
     text: "Parceria de confiança para todos os meus projetos comerciais. Qualidade excepcional e prazos respeitados.",
     rating: 5,
+    photo: carlosPhoto,
   },
   {
     name: "Ana Paula Costa",
     role: "Designer de Interiores",
     text: "A Dimar transformou o banheiro do meu cliente em uma verdadeira obra de arte. Recomendo sem dúvidas!",
     rating: 5,
+    photo: anaPhoto,
   },
 ];
 
@@ -37,22 +43,29 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="border-border hover:shadow-elegant transition-all duration-300 bg-card">
               <CardContent className="p-6">
+                <div className="flex items-center gap-4 mb-4">
+                  <img 
+                    src={testimonial.photo} 
+                    alt={testimonial.name}
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent"
+                  />
+                  <div className="flex-1">
+                    <p className="font-['Montserrat'] font-bold text-primary">
+                      {testimonial.name}
+                    </p>
+                    <p className="font-['Montserrat'] text-sm text-stone-light font-medium">
+                      {testimonial.role}
+                    </p>
+                  </div>
+                </div>
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star key={i} className="w-5 h-5 fill-accent text-accent" />
                   ))}
                 </div>
-                <p className="font-['Montserrat'] text-stone italic mb-6 leading-relaxed font-medium">
+                <p className="font-['Montserrat'] text-stone italic leading-relaxed font-medium">
                   "{testimonial.text}"
                 </p>
-                <div>
-                  <p className="font-['Montserrat'] font-bold text-primary">
-                    {testimonial.name}
-                  </p>
-                  <p className="font-['Montserrat'] text-sm text-stone-light font-medium">
-                    {testimonial.role}
-                  </p>
-                </div>
               </CardContent>
             </Card>
           ))}
