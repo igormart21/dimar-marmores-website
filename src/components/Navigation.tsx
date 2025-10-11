@@ -36,7 +36,7 @@ const Navigation = () => {
             className="font-['Montserrat'] text-2xl md:text-3xl font-bold text-foreground uppercase tracking-wide cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            DI Mármore & Granito
+            DIMAR
           </h1>
 
           <div className="hidden md:flex items-center gap-8">
