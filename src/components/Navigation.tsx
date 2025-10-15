@@ -34,7 +34,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <h1 
-            className="font-['Montserrat'] text-2xl md:text-3xl font-bold text-foreground uppercase tracking-wide cursor-pointer"
+            className="font-['Montserrat'] text-xl sm:text-2xl md:text-3xl font-bold text-foreground uppercase tracking-wide cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             Di Mármores
@@ -65,9 +65,9 @@ const Navigation = () => {
             >
               Contato
             </button>
-            <Button variant="whatsapp" onClick={handleWhatsApp}>
-              <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4 mr-2" />
-              WhatsApp
+            <Button variant="whatsapp" onClick={handleWhatsApp} className="text-xs md:text-sm px-3 md:px-4">
+              <img src={whatsappIcon} alt="WhatsApp" className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2 flex-shrink-0" />
+              <span className="hidden sm:inline">WhatsApp</span>
             </Button>
           </div>
 
@@ -80,35 +80,37 @@ const Navigation = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden py-4 space-y-4 bg-white">
+          <div className="md:hidden py-4 space-y-3 bg-white border-t border-gray-100">
             <button 
               onClick={() => scrollToSection("sobre")}
-              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2"
+              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2 px-2"
             >
               Sobre
             </button>
             <button 
               onClick={() => scrollToSection("servicos")}
-              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2"
+              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2 px-2"
             >
               Serviços
             </button>
             <button 
               onClick={() => scrollToSection("projetos")}
-              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2"
+              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2 px-2"
             >
               Projetos
             </button>
             <button 
               onClick={() => scrollToSection("contato")}
-              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2"
+              className="block w-full text-left font-['Montserrat'] text-foreground hover:text-accent transition-colors font-medium py-2 px-2"
             >
               Contato
             </button>
-            <Button variant="whatsapp" onClick={handleWhatsApp} className="w-full">
-              <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4 mr-2" />
-              WhatsApp
-            </Button>
+            <div className="px-2">
+              <Button variant="whatsapp" onClick={handleWhatsApp} className="w-full text-sm py-3">
+                <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4 mr-2 flex-shrink-0" />
+                <span className="truncate">Falar com a Di Mármores pelo WhatsApp</span>
+              </Button>
+            </div>
           </div>
         )}
       </div>

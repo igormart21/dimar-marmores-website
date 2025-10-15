@@ -120,9 +120,10 @@ const Contact = () => {
                 className="font-['Montserrat']"
               />
             </div>
-            <Button type="submit" variant="hero" size="lg" className="w-full">
-              <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6 mr-2" />
-              Falar com a Di Mármores pelo WhatsApp
+            <Button type="submit" variant="hero" size="lg" className="w-full text-sm md:text-base">
+              <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5 md:w-6 md:h-6 mr-2 flex-shrink-0" />
+              <span className="hidden sm:inline">Falar com a Di Mármores pelo WhatsApp</span>
+              <span className="sm:hidden">WhatsApp</span>
             </Button>
           </form>
         </div>
