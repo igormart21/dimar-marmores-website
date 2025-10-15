@@ -34,8 +34,8 @@ const Hero = () => {
           className="text-sm md:text-lg px-4 md:px-6"
         >
           <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5 md:w-6 md:h-6 mr-2 flex-shrink-0" />
-          <span className="hidden sm:inline">Solicitar Orçamento</span>
-          <span className="sm:hidden">Orçamento</span>
+          <span className="hidden md:inline">Solicitar Orçamento</span>
+          <span className="md:hidden">Orçamento</span>
         </Button>
       </div>
     </section>
