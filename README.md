@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# Di Mármores - Website
 
-## Project info
+Website oficial da Di Mármores, especialistas em mármores e granitos em Porto Alegre do Norte, MT.
 
-**URL**: https://lovable.dev/projects/89041884-70fc-49ca-a972-d260ca52388b
+## 🏢 Sobre a Empresa
 
-## How can I edit this code?
+A Di Mármores nasceu em Goiânia em 2011 e se estabeleceu em Porto Alegre do Norte em 2016, sendo a primeira marmoraria da região. Com mais de 10 anos de experiência no mercado de mármores e granitos, oferecemos soluções premium com o melhor custo-benefício da região.
 
-There are several ways of editing your application.
+## 🎯 Serviços
 
-**Use Lovable**
+- **Bancadas em Mármore e Granito**: Cozinha e banheiro
+- **Escadas e Soleiras**: Revestimento em mármore e granito
+- **Revestimentos e Fachadas**: Comerciais e residenciais
+- **Corte e Acabamento**: Serviço especializado sob medida
+- **Túmulos**: Trabalhos funerários em mármore
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/89041884-70fc-49ca-a972-d260ca52388b) and start prompting.
+## 🛠️ Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** com TypeScript
+- **Vite** para build e desenvolvimento
+- **Tailwind CSS** para estilização
+- **shadcn/ui** para componentes
+- **Lucide React** para ícones
+- **Embla Carousel** para carrosséis
 
-**Use your preferred IDE**
+## 🚀 Como Executar
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Pré-requisitos
+- Node.js 18+ 
+- npm ou yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/igormart21/dimar-marmores-website.git
 
-Follow these steps:
+# Entre no diretório
+cd dimar-marmores-website
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Instale as dependências
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Execute o projeto
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+O projeto estará disponível em `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Estrutura do Projeto
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # Componentes React
+│   ├── ui/             # Componentes base (shadcn/ui)
+│   ├── AdminSection.tsx # Seção do administrador
+│   ├── About.tsx       # Sobre a empresa
+│   ├── Contact.tsx     # Formulário de contato
+│   ├── Footer.tsx      # Rodapé
+│   ├── Gallery.tsx     # Galeria de projetos
+│   ├── Hero.tsx        # Seção principal
+│   └── ...
+├── assets/             # Imagens e recursos
+├── pages/              # Páginas da aplicação
+└── index.css          # Estilos globais
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Funcionalidades
 
-## What technologies are used for this project?
+### ✨ Características Principais
+- **Design Responsivo**: Otimizado para desktop e mobile
+- **Carrosséis Automáticos**: Galeria com auto-scroll
+- **Formulário de Contato**: Integração com WhatsApp
+- **Seção do Administrador**: Apresentação do fundador
+- **História da Empresa**: Timeline desde 2011
+- **SEO Otimizado**: Meta tags para mármores e granitos
 
-This project is built with:
+### 🖼️ Galeria de Projetos
+- **Banheiro Premium**: 11 imagens em carrossel
+- **Cozinha Gourmet**: 11 imagens em carrossel  
+- **Bancadas**: 2 imagens em carrossel
+- **Piscinas**: 1 imagem
+- **Personalizados**: 1 imagem
+- **Túmulos**: 1 imagem
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📞 Contato
 
-## How can I deploy this project?
+- **Telefone/WhatsApp**: (66) 98410-1627
+- **E-mail**: contato@dimarmoreegranito.com.br
+- **Endereço**: Avenida Brasil QD 2 Lote 19, Setor Aeroporto - Porto Alegre do Norte, MT
 
-Simply open [Lovable](https://lovable.dev/projects/89041884-70fc-49ca-a972-d260ca52388b) and click on Share -> Publish.
+## 📄 Licença
 
-## Can I connect a custom domain to my Lovable project?
+Este projeto é propriedade da Di Mármores. Todos os direitos reservados.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Di Mármores** - Transformando ambientes com elegância e qualidade desde 2011.
