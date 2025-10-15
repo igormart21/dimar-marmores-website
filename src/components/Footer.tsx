@@ -1,4 +1,5 @@
 import { MessageCircle, Instagram } from "lucide-react";
+import whatsappIcon from "@/assets/whatsapp-icon.webp";
 
 const Footer = () => {
   return (
@@ -38,7 +39,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-accent rounded-full flex items-center justify-center hover:bg-accent/80 transition-colors"
               >
-                <MessageCircle className="w-5 h-5 text-accent-foreground" />
+                <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6" />
               </a>
               <a 
                 href="https://instagram.com/dimarmoreegranito" 

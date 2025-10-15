@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-granite.jpg";
+import whatsappIcon from "@/assets/whatsapp-icon.webp";
 
 const Hero = () => {
   const handleWhatsApp = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
           onClick={handleWhatsApp}
           className="text-lg"
         >
-          <MessageCircle className="mr-2" />
+          <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6 mr-2" />
           Solicitar Orçamento
         </Button>
       </div>

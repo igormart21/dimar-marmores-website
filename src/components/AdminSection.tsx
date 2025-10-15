@@ -1,3 +1,5 @@
+import dimarPhoto from "@/assets/dimar-admin.png";
+
 const AdminSection = () => {
   return (
     <section className="py-20 bg-stone-100">
@@ -24,7 +26,7 @@ const AdminSection = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full p-2 shadow-2xl">
                       <div className="w-full h-full bg-white rounded-full p-2 shadow-inner">
                         <img 
-                          src="/src/assets/dimar-admin.png" 
+                          src={dimarPhoto} 
                           alt="Dimar - Administrador da Di Mármores"
                           className="w-full h-full object-cover rounded-full shadow-lg"
                         />

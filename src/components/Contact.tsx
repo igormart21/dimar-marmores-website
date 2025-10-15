@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { MessageCircle, Mail, MapPin, Phone } from "lucide-react";
+import whatsappIcon from "@/assets/whatsapp-icon.webp";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -120,7 +121,7 @@ const Contact = () => {
               />
             </div>
             <Button type="submit" variant="hero" size="lg" className="w-full">
-              <MessageCircle className="mr-2" />
+              <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6 mr-2" />
               Falar com a Di Mármores pelo WhatsApp
             </Button>
           </form>

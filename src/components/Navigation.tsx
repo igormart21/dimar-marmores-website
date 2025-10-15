@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, MessageCircle } from "lucide-react";
+import whatsappIcon from "@/assets/whatsapp-icon.webp";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +66,7 @@ const Navigation = () => {
               Contato
             </button>
             <Button variant="whatsapp" onClick={handleWhatsApp}>
-              <MessageCircle className="mr-2 w-4 h-4" />
+              <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4 mr-2" />
               WhatsApp
             </Button>
           </div>
@@ -105,7 +106,7 @@ const Navigation = () => {
               Contato
             </button>
             <Button variant="whatsapp" onClick={handleWhatsApp} className="w-full">
-              <MessageCircle className="mr-2 w-4 h-4" />
+              <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4 mr-2" />
               WhatsApp
             </Button>
           </div>
