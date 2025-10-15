@@ -25,7 +25,7 @@ const Hero = () => {
           Mármores e Granitos Premium
         </p>
         <p className="font-['Montserrat'] text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground/90 mb-6 md:mb-8 max-w-2xl mx-auto font-light px-2">
-          Especialistas em mármores e granitos. Bancadas, escadas, fachadas, revestimentos e túmulos com o melhor preço da região.
+          Especialistas em mármores e granitos nacionais e importados. Bancadas, escadas, fachadas, revestimentos e túmulos com o melhor preço da região.
         </p>
         <Button 
           variant="hero" 
