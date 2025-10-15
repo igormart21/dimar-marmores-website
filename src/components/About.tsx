@@ -64,7 +64,8 @@ const About = () => {
               </p>
               <p className="text-lg leading-relaxed text-stone-600">
                 <span className="font-semibold text-primary">Hoje:</span> Consolidada como referência em mármores e granitos, 
-                continuamos inovando e oferecendo o melhor custo-benefício da região, sempre com foco na satisfação dos nossos clientes.
+                materiais nacionais e importados, continuamos inovando e oferecendo o melhor custo-benefício da região, 
+                sempre com foco na satisfação dos nossos clientes.
               </p>
             </div>
           </div>
