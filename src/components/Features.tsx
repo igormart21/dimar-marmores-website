@@ -52,7 +52,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-['Montserrat'] text-4xl md:text-5xl font-bold text-primary mb-6 uppercase tracking-tight">
-            Por que Escolher a Di Mármores?
+            POR QUE ESCOLHER A DI MÁRMORES?
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-4" />
           <p className="font-['Montserrat'] text-xl text-stone max-w-3xl mx-auto font-medium">
