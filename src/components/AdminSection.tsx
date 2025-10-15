@@ -10,7 +10,7 @@ const AdminSection = () => {
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-6" />
           <p className="text-lg text-stone-600 max-w-3xl mx-auto">
-            Por trás da Di Mármores está Dimar, um profissional dedicado com anos de experiência 
+            Por trás da Di Mármores está Marlinho Ferreira, um profissional dedicado com anos de experiência 
             no mercado de mármores e granitos, sempre comprometido com a excelência e satisfação dos clientes.
           </p>
         </div>
@@ -27,7 +27,7 @@ const AdminSection = () => {
                       <div className="w-full h-full bg-white rounded-full p-2 shadow-inner">
                         <img 
                           src={dimarPhoto} 
-                          alt="Dimar - Administrador da Di Mármores"
+                          alt="Marlinho Ferreira - Administrador da Di Mármores"
                           className="w-full h-full object-cover rounded-full shadow-lg"
                         />
                       </div>
@@ -40,14 +40,14 @@ const AdminSection = () => {
               <div className="p-6 md:p-12 flex flex-col justify-center">
                 <div className="mb-6 md:mb-8">
                   <h3 className="text-2xl md:text-3xl font-bold text-primary mb-3 md:mb-4 uppercase tracking-wide">
-                    Dimar
+                    Marlinho Ferreira
                   </h3>
                   <p className="text-lg md:text-xl text-accent font-semibold mb-4 md:mb-6">
                     Administrador e Fundador
                   </p>
                   <p className="text-base md:text-lg text-stone-600 leading-relaxed mb-4 md:mb-6">
                     Com mais de uma década de experiência no mercado de mármores e granitos, 
-                    Dimar é o responsável por transformar a Di Mármores em uma referência 
+                    Marlinho Ferreira é o responsável por transformar a Di Mármores em uma referência 
                     de qualidade e confiança na região.
                   </p>
                   <p className="text-sm md:text-base text-stone-500 leading-relaxed">
@@ -64,7 +64,7 @@ const AdminSection = () => {
                     e durabilidade dos mármores e granitos, sempre com excelência e transparência."
                   </p>
                   <p className="text-xs md:text-sm text-stone-500 mt-2 md:mt-3 font-semibold">
-                    — Dimar, Fundador da Di Mármores
+                    — Marlinho Ferreira, Fundador da Di Mármores
                   </p>
                 </div>
               </div>
