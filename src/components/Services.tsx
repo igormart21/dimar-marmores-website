@@ -20,7 +20,7 @@ const services = [
   {
     icon: Scissors,
     title: "Corte e Acabamento em Mármore",
-    description: "Serviço especializado de corte, polimento e instalação de mármores e granitos sob medida para seu projeto.",
+    description: "Especialização em corte, polimento e instalação de mármores e granitos nacionais e importados sob medida. Nosso forte são os materiais importados premium para seu projeto.",
   },
 ];
 
