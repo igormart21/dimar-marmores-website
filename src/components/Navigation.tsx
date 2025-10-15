@@ -24,7 +24,7 @@ const Navigation = () => {
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5566984101627?text=Dimar%20gostaria%20de%20or%C3%A7ar%20um%20servi%C3%A7o!", "_blank");
+    window.open("https://wa.me/5566984101627?text=Olá! Gostaria de solicitar um orçamento.", "_blank");
   };
 
   return (

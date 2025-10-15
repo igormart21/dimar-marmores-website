@@ -34,7 +34,7 @@ const Footer = () => {
             </h4>
             <div className="flex gap-4">
               <a 
-                href="https://wa.me/5566984101627" 
+                href="https://wa.me/5566984101627?text=Olá! Gostaria de solicitar um orçamento." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-accent rounded-full flex items-center justify-center hover:bg-accent/80 transition-colors"
