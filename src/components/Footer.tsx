@@ -12,7 +12,7 @@ const Footer = () => {
             </h3>
             <p className="font-['Montserrat'] text-primary-foreground/80 leading-relaxed">
               Especialistas em mármores e granitos. Melhor preço da região em mármore e granito. 
-              Transformando ambientes com elegância e qualidade desde 2014.
+              Transformando ambientes com elegância e qualidade desde 2011.
             </p>
           </div>
           
