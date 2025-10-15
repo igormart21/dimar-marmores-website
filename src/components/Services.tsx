@@ -4,23 +4,23 @@ import { Home, Layers, Building2, Scissors } from "lucide-react";
 const services = [
   {
     icon: Home,
-    title: "Bancadas de Cozinha e Banheiro",
-    description: "Superfícies premium em mármore e granito com acabamento impecável para cozinhas e banheiros sofisticados.",
+    title: "Bancadas em Mármore e Granito",
+    description: "Bancadas de cozinha e banheiro em mármores e granitos premium com acabamento impecável e durabilidade excepcional.",
   },
   {
     icon: Layers,
     title: "Escadas e Soleiras",
-    description: "Revestimento de escadas e soleiras com materiais nobres, garantindo durabilidade e elegância.",
+    description: "Revestimento de escadas e soleiras em mármore e granito, garantindo elegância e resistência ao desgaste.",
   },
   {
     icon: Building2,
     title: "Revestimentos e Fachadas",
-    description: "Soluções completas para fachadas comerciais e residenciais com granito de alta resistência.",
+    description: "Fachadas comerciais e residenciais em granito e mármore, oferecendo beleza e proteção duradoura.",
   },
   {
     icon: Scissors,
-    title: "Corte e Acabamento Sob Medida",
-    description: "Serviço personalizado de corte, polimento e instalação adaptado às necessidades do seu projeto.",
+    title: "Corte e Acabamento em Mármore",
+    description: "Serviço especializado de corte, polimento e instalação de mármores e granitos sob medida para seu projeto.",
   },
 ];
 
@@ -30,7 +30,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-['Montserrat'] text-4xl md:text-5xl font-bold text-primary mb-6 uppercase tracking-tight">
-            Nossos Serviços
+            Serviços em Mármores e Granitos
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto" />
         </div>

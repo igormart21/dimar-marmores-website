@@ -18,13 +18,13 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="font-['Montserrat'] text-5xl md:text-7xl font-bold text-primary-foreground mb-4 tracking-tight uppercase">
-          DI Mármore & Granito
+          Di Mármores
         </h1>
         <p className="font-['Montserrat'] text-2xl md:text-3xl text-accent mb-6 font-bold uppercase tracking-wide">
-          Melhor Preço da Região
+          Mármores e Granitos Premium
         </p>
         <p className="font-['Montserrat'] text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto font-light">
-          Excelência em mármore e granito, transformando ambientes com elegância e precisão
+          Especialistas em mármores e granitos. Bancadas, escadas, fachadas, revestimentos e túmulos com o melhor preço da região.
         </p>
         <Button 
           variant="hero" 

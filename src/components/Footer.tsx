@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-['Montserrat'] text-2xl font-bold mb-4 uppercase tracking-wide">
-              DI Mármore & Granito
+              Di Mármores
             </h3>
             <p className="font-['Montserrat'] text-primary-foreground/80 leading-relaxed">
-              Melhor preço da região em mármore e granito. 
+              Especialistas em mármores e granitos. Melhor preço da região em mármore e granito. 
               Transformando ambientes com elegância e qualidade desde 2014.
             </p>
           </div>
@@ -54,7 +54,7 @@ const Footer = () => {
         
         <div className="border-t border-primary-foreground/20 pt-8 text-center font-['Montserrat'] text-sm text-primary-foreground/60">
           <p>CNPJ: 12.345.678/0001-90</p>
-          <p className="mt-2">&copy; 2025 DI Mármore & Granito. Todos os direitos reservados.</p>
+          <p className="mt-2">&copy; 2025 Di Mármores. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

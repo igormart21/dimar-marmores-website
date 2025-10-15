@@ -121,7 +121,7 @@ const Contact = () => {
             </div>
             <Button type="submit" variant="hero" size="lg" className="w-full">
               <MessageCircle className="mr-2" />
-              Falar com a DI Mármore & Granito pelo WhatsApp
+              Falar com a Di Mármores pelo WhatsApp
             </Button>
           </form>
         </div>
